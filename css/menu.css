@@ -34,7 +34,7 @@
     right:0;
     width:30%;
     visibility: hidden;
-    background:rgba(255,255,255,0.9);
+    background:rgba(255,255,255,1);
     height:100vh;
     padding:50px;
     box-sizing: border-box;
@@ -45,11 +45,13 @@
 .menu.show {
     visibility: visible;
     transform: translate3d(0,0,0);
+    
 }
 .menu-nav {
     margin:0;
     padding:0;
     list-style-type: none;
+    
 }
 .menu-nav a {
     display:block;

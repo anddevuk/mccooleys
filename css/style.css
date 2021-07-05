@@ -33,7 +33,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 
 /* Global Styling */
 .section {
-    padding:160px 20px;
+    padding:50px 20px;
     border-bottom: 1px solid #f1f1f1;
 }
 .section-title {
@@ -270,4 +270,10 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
     background:#2d2d2d;
     color:#fff;
     font-size:20px;
+}
+
+
+/* UTILITY */
+.spacer {
+    margin-top:50px;
 }

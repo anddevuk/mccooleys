@@ -13,7 +13,8 @@ body {
 	margin-bottom: 60px;
 	-webkit-appearance: none;
 	appearance: none;
-	width:70%;
+	width:90%;
+	height:500px;
 	background-color: orange;
 	color: #fff;
 	border-radius: 4px;

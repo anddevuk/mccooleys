@@ -1,0 +1,176 @@
+html, body {
+    margin:0;
+    padding:0;
+    background:#fff;
+    color:#333;
+}
+body, p, input, select, textarea {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+img {
+    max-width:100%;
+}
+body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
+    font-weight:300;
+}
+.text, .textarea {
+    box-sizing:border-box;
+    width:100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size:16px;
+    font-size:1rem;
+}
+.textarea {
+    height:140px;
+}
+
+/* Global Styling */
+.section {
+    padding:60px 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.section-title {
+    font-size:48px;
+    line-height:1;
+    text-align:center;
+    margin:0;
+}
+.lead {
+    line-height:1.25;
+    font-size:1.3rem;
+    color:#999;
+    margin-bottom:35px;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.list-inline {
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-start;
+    padding:0;
+    list-style-type: none;
+    font-size:14px;
+    font-size:0.85rem;
+    color:#999;
+}
+.list-inline-item {
+    flex-grow:1;
+    margin-bottom:5px;
+}
+.list-inline-item .fa {
+    color:#890bdd;
+    margin-right: 7px;
+}
+.top-container {
+    width: 500px;
+    margin: 30px auto;
+}
+/* header styling */
+.site-header {
+    position: fixed;
+    border-bottom: 1px solid #e4e4e4;
+    width:100%;
+    background: rgba(255,255,255,0.9);
+}
+.brand {
+    line-height: 1;
+    font-size:28px;
+    font-size:1.75rem;
+}
+.brand a {
+    text-decoration: none;
+    color:#333;
+}
+
+/* Site MENU */
+.menu-nav a,
+.menu-nav a:visited {
+    color:#890bdd;
+}
+.menu-nav a:hover {
+    color:#222;
+}
+.feature-item {
+    padding:20px;
+}
+.feature-icon {
+    font-size:24px;
+    font-size:1.5rem;
+    background:#890bdd;
+    color:#fff;
+    padding:15px;
+    border-radius: 100%;
+}
+.feature-title {
+    font-size:28px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.feature-description {
+    font-size:20px;
+    font-size: 1.25rem;
+    line-height:1.4;
+
+}
+/* booth styling */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .btn-dark {
+    background: #333;
+    color: #fff;
+    border: #666 1px solid;
+  }
+  
+  .btn-light {
+    background: #f4f4f4;
+    color: #333;
+    border: #ccc 1px solid;
+  }
+  
+  .select {
+    height: 40px;
+    background: #333;
+    color: #fff;
+    padding: 3px;
+    width: 100%;
+    border: 1px #666 solid;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-container {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  #photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  #photos img {
+    width: 100%;
+    border: 3px #fff solid;
+  }
+  
+  #canvas {
+    display: none;
+  }
+
+  .booth {
+      margin-top:30px;
+  }

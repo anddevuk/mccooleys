@@ -198,9 +198,6 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 }
 
 /*site ABOUT */
-#about {
-    padding-top:120px;
-}
 .site-title {
     font-size:4rem;
     color:green;
@@ -226,15 +223,8 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 }
 
 /* newly added bars */
-#food-home {
-    padding-top:140px;
-}
-#drink-home {
-    padding-top:140px;
-}
-#skills {
-    padding-top:120px;
-    background:#fafafa;
+#food-home, #drink-home, #about, #skills {
+    padding-top:200px;
 }
 
 /*portfolio Section */

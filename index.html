@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!--Custom CSS-->
+    <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/menu.css">
@@ -32,9 +33,8 @@
                     </div>
                     <nav class="menu" id="primary-menu">
                         <ul class="menu-nav">
-                            <li class="menu-nav-item"><a href="anddevuk.github.io/mccooleys/drinks.html">Drinks</a></li>
-                            <li class="menu-nav-item"><a href="anddevuk.github.io/mccooleys/food.html">Food</a></li>
-                            <li class="menu-nav-item"><a href="anddevuk.github.io/mccooleys/offersevents.html">Food</a></li>
+                            <li class="menu-nav-item"><a href="drinks.html">Drinks</a></li>
+                            <li class="menu-nav-item"><a href="food.html">Food</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -49,10 +49,13 @@
                         <h1 class="section-title site-title text-center">Welcome To McCooleys</h1>
                         <p class="lead text-center">Use the below navigational buttons to view drinks, food menus and more</p>
                         <ul class="text-center splash-btns">
-                            <li><a href="/mccooleys/drinks.html" class="btn">Drinks</a></li>
-                            <li><a href="/mccooleys/food.html" class="btn">Food</a></li>
-                            <li><a href="/mccooleys/offersevents.html" class="btn">Offers & Events</a></li>
+                            <!-- <li><a href="/drinks.html" class="btn home-btns">Drinks</a></li>
+                            <li><a href="/food.html" class="btn home-btns">Food</a></li> -->
+                            <li><button class="bubbly-button" onclick="delay('food.html')">FOOD</button></li>
+                            <li><button class="bubbly-button" onclick="delay('drinks.html')">DRINKS</button></li>
+                            <li><button class="bubbly-button" onclick="delay('offersandevents.html')">OFFERS & EVENTS</button></li>
                         </ul>
+
                     </header>
                 </div>
             </div>
@@ -89,5 +92,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/buttons.js"></script>
 </body>
 </html>

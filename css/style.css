@@ -1,0 +1,312 @@
+html, body {
+    margin:0;
+    padding:0;
+    background-size: cover;
+    color:#333;
+}
+body, p, input, select, textarea {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+img {
+    max-width:100%;
+}
+body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
+    font-weight:300;
+}
+.text, .textarea {
+    box-sizing:border-box;
+    width:100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size:16px;
+    font-size:1rem;
+}
+.textarea {
+    height:140px;
+}
+
+/* Global Styling */
+.section {
+    padding:160px 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.section-title {
+    font-size:48px;
+    line-height:1;
+    text-align:center;
+    margin:0;
+}
+.lead {
+    line-height:1.25;
+    font-size:1.3rem;
+    color:#999;
+    margin-bottom:35px;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.list-inline {
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-start;
+    padding:0;
+    list-style-type: none;
+    font-size:14px;
+    font-size:0.85rem;
+    color:#999;
+}
+.list-inline-item {
+    flex-grow:1;
+    margin-bottom:5px;
+}
+.list-inline-item .fa {
+    color:orange;
+    margin-right: 7px;
+}
+.form-field {
+    margin-bottom: 10px;
+}
+.img-rounded {
+    border-radius: 100%;
+}
+
+/*START BUTTON STYLING */
+.btn {
+    box-sizing:border-box;
+    text-decoration: none;
+    display: inline-block;
+    background:#ccc;
+    color:#000;
+    padding:90px 90px;
+    border:none;
+    font-size:32px;
+    font-weight:bold;
+}
+.splash-btns a {
+    background-color:orange;
+    width:600px;
+    height:400px;
+    line-height: 6;
+    color:#fff;
+    vertical-align: middle;
+}
+.splash-btns li {
+    margin-top:20px;
+    padding:20px;
+    list-style:none;
+}
+.menu-btn {
+    background:green;
+    color:white;
+}
+.food-btns {
+    width:100%;
+}
+.food-btns li, .drink-btns li {
+    list-style:none;
+}
+.food-btns a, .drink-btns a {
+    background-color:orange;
+    color:#fff;
+    padding:20px;
+    margin-left:-50px;
+    width:100%;
+    list-style:none;
+}
+.food-nav {
+    display:flex;
+    justify-content: center;
+}
+/* END OF BUTTON STYLING*/
+.feature-item {
+    padding:20px;
+}
+.feature-icon {
+    font-size:24px;
+    font-size:1.5rem;
+    background:orange;
+    color:#fff;
+    padding:15px;
+    border-radius: 100%;
+}
+.feature-title {
+    font-size:28px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.feature-description {
+    font-size:20px;
+    font-size: 1.25rem;
+    line-height:1.4;
+
+}
+
+@media (max-width:768px) {
+    .btn {
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+}
+/* DRINKS MENU STYLING */
+.drinks-items {
+    list-style: none;
+    text-align: center;
+    margin-left:-20px;
+    font-size:25px;
+}
+/* END DRINKS MENU STYLING */
+
+/* header styling */
+.site-header {
+    position: fixed;
+    border-bottom: 1px solid #e4e4e4;
+    width:100%;
+    background: rgba(255,255,255,0.9);
+}
+.brand {
+    line-height: 1;
+    font-size:28px;
+    font-size:1.75rem;
+}
+.brand a {
+    text-decoration: none;
+    color:#333;
+}
+
+/* Site MENU */
+.menu-nav a,
+.menu-nav a:visited {
+    color:orange;
+}
+.menu-nav a:hover {
+    color:#222;
+}
+
+/*site ABOUT */
+#about {
+    padding-top:120px;
+}
+.site-title {
+    font-size:4rem;
+    color:green;
+    font-family: "Yellowtail", cursive, sans-serif;
+}
+#about .lead {
+    font-size:1.35rem;
+    line-height: 1.3;
+}
+#avatar {
+    width:400px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    #about .site-title {
+        text-align: center;
+    }
+}
+
+/* newly added bars */
+#food-home {
+    padding-top:140px;
+}
+#drink-home {
+    padding-top:140px;
+}
+#skills {
+    padding-top:120px;
+    background:#fafafa;
+}
+
+/*portfolio Section */
+.portfolio-item {
+    margin:20px;
+}
+
+.project-title {
+    font-size:48px;
+    font-size:3rem;
+    margin:0;
+    line-height:1;
+    font-family: "Yellowtail", cursive, sans-serif;
+    color:orange;
+}
+@media (max-width:768px) {
+    #portfolio .col3 {
+        grid-column: span 6;
+    }
+}
+@media (max-width: 480px) {
+    #portfolio .col3 {
+        grid-column: span 12;
+        text-align: center;
+    }
+}
+
+#contact {
+    background:#222;
+    border-color: #333;
+}
+#contact .section-header {
+    border-bottom: 1px dotted #444;
+}
+#contact .section-title {
+    font-family: "Yellowtail", cursive, sans-serif;
+    color:orange;
+}
+.form-title {
+    color:#999;
+    font-size:36px;
+    font-size:2.25rem;
+    margin:0 0 10px 0;
+}
+.dark .text,
+.dark .textarea {
+    color:#999;
+    border-color: #222;
+    background-color: rgba(255,255,255,0.1);
+    -webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.6);
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.6);
+}
+.dark .btn-submit {
+    color:#fff;
+    background-color: rgba(0,0,0,0.2);
+    border:1px solid rgba(0,0,0,0.1);
+    font-weight: 300;
+}
+.dark .btn-submit:hover,
+.dark .btn-submit:focus {
+    background-color: rgba(0,0,0,0.35);
+    border-color: rgba(0,0,0,0.2);
+    cursor:pointer;
+}
+#status-messages {
+    margin-top:0.7rem;
+    padding:1rem;
+}
+#stats-messages.error {
+    background: #dc3545;
+    color:#fff;
+}
+#status-messages.success {
+    background:#28a745;
+    color:#fff;
+}
+
+/* FOOTER SECTION */
+.site-footer {
+    padding:20px;
+    background:#2d2d2d;
+    color:#fff;
+}

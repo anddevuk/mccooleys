@@ -265,48 +265,11 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
     font-family: "Yellowtail", cursive, sans-serif;
     color:orange;
 }
-.form-title {
-    color:#999;
-    font-size:36px;
-    font-size:2.25rem;
-    margin:0 0 10px 0;
-}
-.dark .text,
-.dark .textarea {
-    color:#999;
-    border-color: #222;
-    background-color: rgba(255,255,255,0.1);
-    -webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.6);
-    box-shadow: inset 0 2px 3px rgba(0,0,0,0.6);
-}
-.dark .btn-submit {
-    color:#fff;
-    background-color: rgba(0,0,0,0.2);
-    border:1px solid rgba(0,0,0,0.1);
-    font-weight: 300;
-}
-.dark .btn-submit:hover,
-.dark .btn-submit:focus {
-    background-color: rgba(0,0,0,0.35);
-    border-color: rgba(0,0,0,0.2);
-    cursor:pointer;
-}
-#status-messages {
-    margin-top:0.7rem;
-    padding:1rem;
-}
-#stats-messages.error {
-    background: #dc3545;
-    color:#fff;
-}
-#status-messages.success {
-    background:#28a745;
-    color:#fff;
-}
 
 /* FOOTER SECTION */
 .site-footer {
     padding:20px;
     background:#2d2d2d;
     color:#fff;
+    font-size:30px;
 }

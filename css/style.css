@@ -14,7 +14,7 @@ html, body {
     to   { opacity: 1; }
 }
 body, p, input, select, textarea {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
 }
 img {
     max-width:100%;
@@ -41,7 +41,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 }
 .section-title {
     font-size:48px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
     line-height:1;
     text-align:center;
     margin:0;
@@ -204,7 +204,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 .site-title {
     font-size:4rem;
     color:#066112d2;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
 }
 #about .lead {
     font-size:1.35rem;
@@ -254,7 +254,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
     border-bottom: 1px dotted #444;
 }
 #contact .section-title {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Kodchasan', sans-serif;
     color:orange;
 }
 

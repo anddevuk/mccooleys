@@ -1,9 +1,3 @@
-@font-face {
-    font-family: "KGHAPPY";
-    src: url("KGHAPPY.tff");
-    src: url("KGHAPPYShadows.tff") format("tff");
-    src: url("KGHAPPYSolid.tff") format("tff");
-}
 html, body {
     margin:0;
     padding:0;
@@ -20,7 +14,7 @@ html, body {
     to   { opacity: 1; }
 }
 body, p, input, select, textarea {
-    font-family: 'KGHAPPYSolid', cursive, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 img {
     max-width:100%;
@@ -47,7 +41,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 }
 .section-title {
     font-size:48px;
-    font-family: 'KGHAPPY', cursive, sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height:1;
     text-align:center;
     margin:0;
@@ -210,7 +204,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 .site-title {
     font-size:4rem;
     color:#066112d2;
-    font-family: "KGHAPPY", cursive, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 #about .lead {
     font-size:1.35rem;
@@ -260,7 +254,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
     border-bottom: 1px dotted #444;
 }
 #contact .section-title {
-    font-family: "KGHAPPYSolid", cursive, sans-serif;
+    font-family: 'Inter', sans-serif;
     color:orange;
 }
 

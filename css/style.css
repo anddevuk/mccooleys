@@ -9,6 +9,15 @@ html, body {
     padding:0;
     background-size: cover;
     color:#333;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
 }
 body, p, input, select, textarea {
     font-family: 'KGHAPPYSolid', sans-serif;

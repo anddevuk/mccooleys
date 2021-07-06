@@ -1,11 +1,10 @@
 body {
-	/* font-size: 72px; */
-	font-family: 'Inter', sans-serif;
+	font-family: 'Kodchasan', sans-serif;
 	text-align: center;
 	background-color: #f8faff;
 }
 .bubbly-button {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Kodchasan', sans-serif;
 	display: inline-block;
 	font-size: 72px;
 	padding: 0.2em 2em;

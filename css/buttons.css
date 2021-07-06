@@ -154,10 +154,10 @@ body {
 	right: 0px;
 	height: 100%;
 	width: 2px;
-	background: -webkit-gradient(linear, left bottom, left top, from(#000), to(#000));
+/* 	background: -webkit-gradient(linear, left bottom, left top, from(#000), to(#000));
 	background: linear-gradient(to top, rgba#000, #000);
 	-webkit-animation: 2s animateRight linear -1s infinite;
-			animation: 2s animateRight linear -1s infinite;
+			animation: 2s animateRight linear -1s infinite; */
   }
   
   @keyframes animateRight {
@@ -282,10 +282,10 @@ body {
 	right: 0px;
 	height: 100%;
 	width: 2px;
-	background: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
+/* 	background: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
 	background: linear-gradient(to right, rgba#000, #000);
 	-webkit-animation: 2s animateRight linear -1s infinite;
-			animation: 2s animateRight linear -1s infinite;
+			animation: 2s animateRight linear -1s infinite; */
   }
   
   @keyframes animateRight {
@@ -326,10 +326,10 @@ body {
 	left: 0px;
 	height: 100%;
 	width: 2px;
-	background: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
+/* 	background: -webkit-gradient(linear, left top, right top, from(#000), to(#000));
 	background: linear-gradient(to right, rgba#000, #000);
 	-webkit-animation: 2s animateLeft linear -1s infinite;
-			animation: 2s animateLeft linear -1s infinite;
+			animation: 2s animateLeft linear -1s infinite; */
   }
   
   @keyframes animateLeft {

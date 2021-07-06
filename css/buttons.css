@@ -1,4 +1,5 @@
 body {
+	/* font-size: 72px; */
 	font-family: 'KGHAPPYSolid', 'Arial', sans-serif;
 	text-align: center;
 	background-color: #f8faff;
@@ -90,7 +91,7 @@ body {
 	background: linear-gradient(-30deg, orange 50%, orange 50%);
 	padding: 40px 110px;
 	margin: 12px;
-	width:300px;
+	width:50%;
 	display: inline-block;
 	-webkit-transform: translate(0%, 0%);
 			transform: translate(0%, 0%);
@@ -218,7 +219,7 @@ body {
 	background: linear-gradient(-30deg, #066112d2 50%, #066112d2 50%);
 	padding: 40px 110px;
 	margin: 12px;
-	width:300px;
+	width:50%;
 	display: inline-block;
 	-webkit-transform: translate(0%, 0%);
 			transform: translate(0%, 0%);
@@ -346,7 +347,7 @@ body {
 	background: linear-gradient(-30deg, #0b3d0b 50%, #082b08 50%);
 	padding: 40px 110px;
 	margin: 12px;
-	width:300px;
+	width:50%;
 	display: inline-block;
 	-webkit-transform: translate(0%, 0%);
 			transform: translate(0%, 0%);

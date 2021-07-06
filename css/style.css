@@ -22,7 +22,7 @@ html, body {
     to   { opacity: 1; }
 }
 body, p, input, select, textarea {
-    font-family: 'KGHAPPYSolid', sans-serif;
+    font-family: 'KGHAPPYSolid', cursive, sans-serif;
 }
 img {
     max-width:100%;
@@ -49,7 +49,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 }
 .section-title {
     font-size:48px;
-    font-family: 'KGHAPPY', sans-serif;
+    font-family: 'KGHAPPY', cursive, sans-serif;
     line-height:1;
     text-align:center;
     margin:0;
@@ -241,15 +241,6 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 /*portfolio Section */
 .portfolio-item {
     margin:20px;
-}
-
-.project-title {
-    font-size:48px;
-    font-size:3rem;
-    margin:0;
-    line-height:1;
-    font-family: "Yellowtail", cursive, sans-serif;
-    color:orange;
 }
 @media (max-width:768px) {
     #portfolio .col3 {

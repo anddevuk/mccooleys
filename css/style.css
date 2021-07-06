@@ -3,8 +3,6 @@
     src: url("KGHAPPY.tff");
     src: url("KGHAPPYShadows.tff") format("tff");
     src: url("KGHAPPYSolid.tff") format("tff");
-    src: url("KGHAPPY.wotf") format("woff");
-    src: url("KGHAPPY.otf") format("otf");
 }
 html, body {
     margin:0;

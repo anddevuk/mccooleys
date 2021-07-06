@@ -110,7 +110,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
     list-style:none;
 }
 .menu-btn {
-    background:green;
+    background:#066112d2;
     color:white;
 }
 .food-btns {
@@ -200,7 +200,7 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
 /*site ABOUT */
 .site-title {
     font-size:4rem;
-    color:green;
+    color:#066112d2;
     font-family: "KGHAPPY", cursive, sans-serif;
 }
 #about .lead {

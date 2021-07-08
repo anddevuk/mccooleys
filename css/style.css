@@ -272,11 +272,11 @@ body, p, h1, h2, h3, h4, h5, h6, input, select, textarea {
     margin-top:50px;
 }
 
-.fpv {
-      object-fit: cover;
-      width: 100vw;
-      height: 100vh;
-      position: fixed;
-      top: 0;
-      left: 0;
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
